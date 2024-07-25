@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -32,32 +33,28 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#about-me">Rólam</a>
 						</li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Információk</a>
-                            <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="dropdown08">
-                            <li><a class="dropdown-item" href="setup.html">Setup</a></li>
-                            <li><a class="dropdown-item" href="#cv">Önéletrajz</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cv">Önéletrajz</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="setup.html">Setup</a>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <main class="container-fluid pt-4 pb-4">
-        <div class=" container about-bg " id="about-me">
-            <div class="row p-4">
-                <div class=" col-md-5">
-                    <img src="assets/img/" alt="Me picture" class="rounded mx-auto d-block">
-                </div>
-                <div class="col-md-7 text-center">
-                    <h4>Rólam</h4>
-                    <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
+        <div class="container-fluid about-bg " id="">
+            <div class="img-about text-center mb-3"></div>
+            <div class="content container text-break">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
-           
         </div>
-        
+        <div class="cv-download d-flex justify-content-center p-3" id="cv">
+            <a href="assets/files/cv.pdf" download><button type="button" class="btn btn-primary"><i class="fa fa-download"></i> Cv Letöltése</button></a>
+        </div>
     </main>
 
 

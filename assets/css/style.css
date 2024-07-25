@@ -12,6 +12,18 @@
 	border-radius: 2rem;
 }
 
+.img-about{
+	height: 250px;
+	width: 250px;
+	border: 2px solid green;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-image: url("../img/me.jpeg");
+	background-position: center -2px;
+	background-size: 230px;
+}
+
+
 .line{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
